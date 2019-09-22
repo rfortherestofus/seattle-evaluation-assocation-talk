@@ -1,0 +1,111 @@
+---
+title: "What Evaluation Can Learn From Data Science"
+author: "David Keyes"
+output:
+  xaringan::moon_reader:
+    df_print: paged
+    css: ["style.css", "default"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: 16:9
+---
+
+```{r child = "setup.Rmd"}
+```
+
+class: center, middle
+
+![](images/data-science-eval-venn-no-text.png)
+
+---
+
+class: center, middle
+
+![](images/data-science-eval-venn.png)
+
+---
+
+class: inverse, dk-section-title, middle, center
+
+# My Path to "Data Science"
+
+---
+
+class: center, middle, dk-section-title, inverse
+
+## How I learned R
+
+
+
+---
+
+## I find it funny that people call me a data scientist
+
+---
+
+## But maybe I am a data scientist?
+
+---
+
+class: center, middle, dk-section-title
+
+background-image: url("https://media.giphy.com/media/jPAdK8Nfzzwt2/source.gif")
+
+# What is data science?
+
+<!-- ![]("https://media.giphy.com/media/jPAdK8Nfzzwt2/source.gif") -->
+
+
+
+---
+
+## Ask people to give ideas about what data science is
+
+---
+
+## No widely agreed upon definition
+
+---
+
+## Branding exercise to get more $
+
+---
+
+## Need to separate out fitting models + working with data
+
+---
+
+# What data science can teach evaluation
+
+---
+
+## Thinking about data up front can yield huge results on back end
+
+---
+
+## Automate all the things!
+
+---
+
+background-image: url("images/tenor.gif")
+
+
+## R is a workflow tool
+
+
+
+
+---
+
+# Conclusion
+
+---
+
+## A little bit of coding goes a long way
+
+---
+
+## Talk about time spent learning R vs time saved generating reports with RMarkdown
