@@ -26,7 +26,7 @@ layout: true
   
 &lt;div class="dk-footer"&gt;
 &lt;span&gt;
-&lt;a href="https://rfortherestofus.com/" target="_blank"&gt;R for the Rest of Us
+&lt;!-- &lt;a href="https://rfortherestofus.com/" target="_blank"&gt;David Keyes / R for the Rest of Us --&gt;
 &lt;/a&gt;
 &lt;/span&gt;
 &lt;/div&gt; 
@@ -72,7 +72,7 @@ class: center, middle
 
 class: inverse, dk-section-title, middle, center
 
-# My Path to "Data Science"
+# My Path to&lt;br&gt;"Data Science"
 
 ---
 
@@ -129,7 +129,7 @@ class: center, middle
 
 - Sexy field today, both for orgs and individuals
 - Branding exercise to get more cache + $
-- But if we only
+- But if we only think of it as the stats part, we're missing a whole side of what data scientists do 
 
 ---
 
@@ -146,36 +146,112 @@ class: inverse, dk-section-title, middle, center
 
 ---
 
-class: inverse, dk-section-title, middle, center
+class: inverse, dk-section-title, middle
 
 background-image: url("images/mistake.jpg")
 
-## Lesson #1&lt;br&gt;You will make mistakes. &lt;br&gt;Catch them before it's too late. 
+## Lesson #1&lt;br&gt;Make your work transparent&lt;br&gt;to catch mistakes&lt;br&gt;before it’s too late
+
+???
+
+- We all make mistakes. Question is just whether we see them before we send out results. 
+- Give example of ODS project when I kept having to redownload data and didn't know how I had merged it.
+- Code is just a written out version of your work process. Anyone should be able to read it and know what you did. 
 
 
----
-
-class: inverse, dk-section-title, middle, center
-
-## Lesson #2&lt;br&gt;Think about the structure of your data up front to save yourself time on the back end
-
----
-
-class: inverse, dk-section-title, middle, center
-
-## Lesson #3
-
-![](images/automate-all-the-things.jpg)
 
 ---
 
-class: inverse, dk-section-title, middle, center
+class: inverse, dk-section-title, middle
+
+background-image: url("images/structure.jpg")
+
+## Lesson #2&lt;br&gt;Think about the&lt;br&gt;structure of your data up front&lt;br&gt;to get better results on the back end
+
+???
+
+- Common for data scientists to complain about messy data
+- As evaluators, we have advantage of collecting data
+- Don't separate out data colletion and analysis stages in your planning
+- Do things like use validation in forms to ensure you get data you can use
+
+---
+
+class: inverse, dk-section-title, middle
+
+background-image: url("images/automate.jpg")
+
+## Lesson #3&lt;br&gt;Automate all the things!
+
+&lt;!-- ![](images/automate-all-the-things.jpg) --&gt;
+
+???
+
+- If you know the structure of data, you can analyze it automatically
+- You can automate data cleaning, analysis, and reporting (i.e. not just reporting)
+- You can do this in Excel as well (give example of Reading Partners)
+- Give example of how I produced report automatically for webinar
+- You then have more time to think about what the data *means*
+
+---
+
+class: inverse, dk-section-title, middle
+
+background-image: url("images/workflow.jpg")
+
 
 ## Lesson #4&lt;br&gt;R is a Workflow Tool
 
+???
+
+- Sharla's example
+- R isn't just for complex statistical analyses. RMarkdown can improve your workflow tremendously.
+
 ---
 
-# A Little Bit of Coding Goes a Long Way
+class: center, middle
+
+![](images/sharla-tweet-thread.gif)
+
+
+---
+
+class: middle
+
+# Don't Just Work *in* your Data&lt;br&gt;Also Work *on* Your Data
+
+???
+
+- From e-myth book
+- Don't just analyze your data. Think also in meta ways about your data. 
+
+
+---
+
+class: middle
+
+# A Little Bit of Code Goes a Long Way
+
+--
+
+&gt; Learning R really doesn’t have to be about learning statistical models or advanced computation methods. I have a masters degree in Statistics and the most statistical thing I do these days is calculate a median.
+
+&gt; Sharla Gelfand
+
+---
+
+class: middle
+
+# R:&lt;br&gt;Inefficient at the Start&lt;br&gt;Waaaaaayyyy More Efficient With Time
+
+---
+
+![](slides_files/figure-html/unnamed-chunk-2-1.png)&lt;!-- --&gt;
+
+???
+
+- Never Having to redo report with mistake in it: priceless
+- Learning how to code is not just about doing stats, it's also about workflow
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>

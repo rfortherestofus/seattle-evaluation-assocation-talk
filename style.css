@@ -88,6 +88,8 @@ a , a > code {
 }
 
 
+
+
 /* Footer */
 
 .remark-slide-number {
@@ -212,4 +214,8 @@ div.dk-footer a {
 .toc-content p {
   font-size: 18px;
   margin: 18px 0;
+}
+
+.background-image{
+  
 }

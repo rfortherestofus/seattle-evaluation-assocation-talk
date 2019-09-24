@@ -1,8 +1,9 @@
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(eval = F, 
-                      warning = F,
+knitr::opts_chunk$set(warning = F,
                       message = F,
-                      rows.print = 5)
+                      echo = F,
+                      include = T,
+                      dpi = 150)
 
 
 ```
@@ -11,7 +12,7 @@ layout: true
   
 <div class="dk-footer">
 <span>
-<a href="https://rfortherestofus.com/" target="_blank">R for the Rest of Us
+<!-- <a href="https://rfortherestofus.com/" target="_blank">David Keyes / R for the Rest of Us -->
 </a>
 </span>
 </div> 
