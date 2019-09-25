@@ -280,7 +280,7 @@ ggplot(df, aes(year, total_hours,
     annotate("label", 
            x = 3.5, 
            y = 47, 
-           label = "Non-R", 
+           label = "R", 
            fill = "#6cabdd",
            color = "white") +
   theme_ipsum() +
